@@ -1,0 +1,38 @@
+.message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.sender-picture > span {
+  background-color: #00B489;
+  border-radius: 50%;
+  padding: 1.2rem 1.8rem;
+  margin-right: .8rem;
+}
+
+.message-details {
+  width: 100%;
+}
+
+.message-sender-date {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.message-sender-date > p {
+  color: #111;
+  font-size: larger;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.message-body{
+  font-size: medium;
+  font-weight: 420;
+  color: #494757;
+}

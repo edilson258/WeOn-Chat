@@ -1,0 +1,41 @@
+.msg-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.msg-input div {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+}
+
+.msg-text {
+  background-color: #EEEEEE;
+  padding-top: 10px !important;
+  border-radius: 5px;
+}
+
+.msg-icon {
+  color: white;
+  font-size: larger;
+}
+
+.msg-audio {
+  padding: .7rem .8rem !important;  
+  background-color: #00B489;
+  border-radius: 50%;
+}
+
+.msg-text-input {
+  border: none;
+}
+
+.msg-text-input:focus {
+  border: none;
+}

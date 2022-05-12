@@ -1,0 +1,23 @@
+.home-header {
+  background-color: #00B489;
+}
+
+.messages-wrap {
+  margin-top: 2.5rem;
+}
+
+/* Floating Button */
+
+.float-btn {
+  position: fixed;
+  background-color: #00B489;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.float-icon {
+  font-size: x-large;
+  color: white;
+}

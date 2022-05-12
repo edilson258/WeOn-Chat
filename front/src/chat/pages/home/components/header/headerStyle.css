@@ -1,0 +1,25 @@
+.header > h1 {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6vh;
+  padding-bottom: 1.5rem;
+}
+
+.h-icon {
+  font-size: x-large;
+  margin-left: 1rem;
+  justify-content: space-between;
+  color: white;
+}
+
+.h-icon.search {
+  font-size: larger;
+}

@@ -1,0 +1,73 @@
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: .5rem !important;
+  padding: 0px .5rem;
+  background-color: #00B489;
+}
+
+.chat-header div, span {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+
+.ch-out {
+  display: flex;
+  align-items: center;
+  margin-right: .5rem !important;
+}
+
+.ch-f-actions {
+  display: flex;
+}
+
+.ch-peer-picture {
+  padding: 20px 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.ch-info {
+  margin-top: .3rem !important;
+}
+
+.ch-peer-name {
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+
+.ch-peer-online {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: .3rem;
+}
+
+.ch-icon.back {
+  font-size: larger;
+  margin-right: .3rem;
+  color: white;
+}
+
+.ch-icon.online {
+  font-size: .5rem;
+  color: #B2FF59;
+  margin-right: .2rem;
+  margin-top: .2rem;
+}
+
+.ch-peer-online-status {
+  color: white;
+}
+
+.ch-sec-actions {
+  display: flex;
+}
+
+.ch-s-icon {
+  font-size: larger;
+  color: white;
+  margin-left: 1rem;
+}
