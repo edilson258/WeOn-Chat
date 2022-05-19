@@ -1,41 +1,58 @@
 .msg-input {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: fixed;
-  bottom: 0px;
-  border-radius: 5px;
-  padding: 10px 10px;
+  bottom: 1rem;
+  width: 100%;
+  padding: 0px .5rem;
 }
 
-.msg-input div {
-  padding: 0px 0px;
+.msg-input * {
   margin: 0px 0px;
+  padding: 0px 0px;
   box-sizing: border-box;
 }
 
+.msg-input > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .msg-text {
-  background-color: #EEEEEE;
-  padding-top: 10px !important;
-  border-radius: 5px;
-}
-
-.msg-icon {
-  color: white;
-  font-size: larger;
-}
-
-.msg-audio {
-  padding: .7rem .8rem !important;  
-  background-color: #00B489;
-  border-radius: 50%;
+  padding: .5rem .8rem;
+  background-color: white;
+  display:  flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  width: 85%;
 }
 
 .msg-text-input {
+  width: 80%;
   border: none;
+  margin: 0px 10px;
 }
 
-.msg-text-input:focus {
-  border: none;
+.msg-text-input:hover {
+  outline: none;
+  font-size: 1rem;
+}
+
+.msg-audio {
+  background-color: #00B489;
+  padding: .5rem .6rem;
+  border-radius: 50%;
+  color: white;
+}
+
+.msg-icon {
+  font-size: 1.3rem;
+}
+
+.msg-icon.smile {
+  color: #424242;
+}
+
+.msg-icon.camera {
+  color: #424242;
 }
